@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package patient.events; // all generated code based on protofile will go to this package
+
+option java_multiple_files = true; // generate separate files for each class
+
+message PatientEvent{
+  string patientId = 1;
+  string name = 2;
+  string email = 3;
+  string event_type = 4;
+}

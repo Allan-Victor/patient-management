@@ -1,0 +1,14 @@
+### Creates new Patient
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "firstName": "Kafka",
+  "lastName": "Katushabe",
+  "email": "kafka_test@gmail.com",
+  "address": "Bweyogerere",
+  "dateOfBirth": "1997-01-01",
+  "registeredDate": "2025-01-01"
+}
+
+###

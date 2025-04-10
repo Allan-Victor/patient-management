@@ -1,0 +1,13 @@
+### Updates an existing Patient
+PUT http://localhost:4000/patients/423c0957-2e9e-4d51-901f-c8253a3ea49c
+Content-Type: application/json
+
+{
+  "firstName": "Evelyn",
+  "lastName": "Katushabe",
+  "email": "katushabeve50@gmail.com",
+  "address": "Kololo",
+  "dateOfBirth": "1997-01-01"
+}
+
+###
